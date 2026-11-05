@@ -1,4 +1,7 @@
-package com.example.praktikum6.model;
+package com.example.praktikum6.model
 
-data class Siswa {
-}
+data class Siswa(
+    val nama : String ="",
+    val gender : String="",
+    val alamat : String=""
+)
